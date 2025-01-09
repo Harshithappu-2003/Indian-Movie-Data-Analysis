@@ -40,4 +40,27 @@ Follow the steps below to run the project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/indian-movie-data-analysis.git
+
+   # Indian Movie Data Analysis
+
+## Dataset
+
+The dataset `output.csv` must be placed in the **root directory** of the project. It includes the following columns:
+
+- **Movie Name**: The name of the movie.
+- **Year**: The year of release.
+- **Timing (min)**: The duration of the movie in minutes.
+- **Rating (10)**: The rating of the movie out of 10.
+- **Votes**: The number of votes the movie has received.
+- **Genre**: The genre of the movie.
+- **Language**: The language in which the movie was made.
+
+## How to Use
+
+1. **Launch the App**  
+   To launch the app, run the following command in your terminal:
+   ```bash
+   streamlit run app.py
+
+## Screenshot
 ![Screenshot 2025-01-09 223257](https://github.com/user-attachments/assets/1ea50011-a31b-4b87-acfb-f39db822c900)
